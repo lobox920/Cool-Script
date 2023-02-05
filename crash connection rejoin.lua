@@ -1,6 +1,3 @@
-getgenv().MaxPingAttempt = 4 -- maximum of attempt before rejoining
-getgenv().RefreshPingRate = 3 -- every ... seconds (MINIMUM 1)
-
 local ping = game:GetService('Stats').PerformanceStats.Ping -- ping service :p
 local plr = game:GetService("Players").LocalPlayer
 local old = ping:GetValue() -- the first value
