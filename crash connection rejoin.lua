@@ -8,7 +8,7 @@ local new = -100 -- new will be 0 as your ping wont be 9e9?
 local attempt = 0 -- leave it
 while true do
 	new = ping:GetValue()
-	print(old, new)
+	--print(old, new)
 	if old == new then
 		if attempt >= getgenv().MaxPingAttempt then
 		    warn("crash conection")
