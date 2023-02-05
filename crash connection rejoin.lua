@@ -4,7 +4,7 @@ getgenv().RefreshPingRate = 3 -- every ... seconds (MINIMUM 1)
 local ping = game:GetService('Stats').PerformanceStats.Ping -- ping service :p
 local plr = game:GetService("Players").LocalPlayer
 local old = ping:GetValue() -- the first value
-local new = -100 -- new will be 0 as your ping wont be 9e9?
+local new = -100 -- new will be -100 as your ping wont be negative xd?
 local attempt = 0 -- leave it
 while true do
 	new = ping:GetValue()
