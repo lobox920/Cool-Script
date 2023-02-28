@@ -29,7 +29,7 @@ end
 
 
 
-local NotificationFrame = game:GetObjects("rbxassetid://6924028278")[1]
+local NotificationFrame = game:GetObjects("rbxassetid://12641949741")[1]
 NotificationFrame.ZIndex = 4
 NotificationFrame.Parent = NotificationHolder
 script = NotificationFrame.NotifScript
@@ -214,8 +214,8 @@ function Ripple(Object)
 	end)
 end
 
-function SolarisLib:Notification(title, desc)
-    Notify:New(title,desc)
+function SolarisLib:Notification(title, desc, duration)
+    Notify:New(title, desc, duration)
 end    
 
 function SolarisLib:New(Config)
