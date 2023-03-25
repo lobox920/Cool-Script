@@ -1,4 +1,3 @@
-getgenv().RefreshPingRate = 1.5 -- every 1.5 second
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))() -- notification library
 local ping = game:GetService('Stats').PerformanceStats.Ping -- ping service :p
 local plr = game:GetService("Players").LocalPlayer
