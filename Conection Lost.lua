@@ -14,6 +14,8 @@ while true do
 		else
 		   attempt += 1 -- adding up a number
 		end
+    else
+        attempt = 0
 	end
 	old = new -- refresh the values
 	task.wait(getgenv().RefreshPingRate)
